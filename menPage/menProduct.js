@@ -381,8 +381,7 @@ let men = [
 
 
 
-// let orderDataArr=JSON.parse(localStorage.getItem("selectMenProduct")) || [];
-
+let orderDataArr = JSON.parse(localStorage.getItem("selectMenProduct")) || [];
 let container = document.getElementById("container");
 
 let appendData = (data) => {
@@ -402,28 +401,14 @@ let appendData = (data) => {
         save.innerText = elem.save;
         let discount = document.createElement("p");
         discount.innerText = +elem.discounted_price;
-        let btn=document.createElement("button");
-        btn.innerText="Add to Cart";
+        let btn = document.createElement("button");
+        btn.innerText = "Add to Cart";
+        btn.addEventListener("click", function () {
+            addDetails(elem);
+        });
 
-        div.append(img, title, categories, price, save, discount,btn);
+        div.append(img, title, categories, price, save, discount, btn);
         // console.log(div);
-
-        // select product
-        btn.onclick = () => {
-            let data1 = {
-                img: elem.image,
-                title: elem.title,
-                categories: elem.category,
-                price: elem.price,
-                save: elem.save,
-                discount: elem.discounted_price,
-            };
-
-            // orderDataArr.push(data1);
-            // console.log(data1);
-            localStorage.setItem("selectMenProduct", JSON.stringify(data1));
-            // window.location = "./menProduct.html";
-        }
 
         container.append(div);
     });
@@ -432,7 +417,21 @@ let appendData = (data) => {
 appendData(men);
 
 
-
+function addDetails(elem) {
+    let data1 = {
+        img: elem.image,
+        title: elem.title,
+        categories: elem.category,
+        price: elem.price,
+        save: elem.save,
+        discount: elem.discounted_price,
+    };
+    
+    orderDataArr.push(data1);
+    // console.log(data1);
+    localStorage.setItem("selectMenProduct", JSON.stringify(orderDataArr));
+    alert("Item added to the Cart....");
+}
 
 
 //price select options
