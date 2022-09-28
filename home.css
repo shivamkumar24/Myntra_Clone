@@ -1,0 +1,111 @@
+#navbar>#left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#left>div:hover{
+  color: red;
+  cursor: pointer;
+}
+#logo{
+    width: 70px;
+}
+#search_bar{
+    width: 300px;
+    height: 40px;
+}
+#navbar{
+    /* display: flex; */
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    text-decoration: none;
+    /* align-items: center; */
+    position:sticky;
+    top: 0;
+    box-shadow: rgba(158, 158, 176, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#ranbir_kiara{
+    margin-top: 50px;
+
+}
+#ranbir_kiara img{
+    width: 100%;
+    height: 450px;
+   
+}
+
+#second_pic{
+    margin-top: 30px;
+}
+
+#second_pic img{
+    width: 100%;
+    height: 300px;
+   
+}
+#third_pic img{
+    width: 100%;
+    
+}
+
+#fourth_pic{
+    display: grid;
+    grid-template-columns: repeat(10,9%);
+    gap: 14px;
+    /* border: 1px solid red; */
+}
+
+
+#fourth_pic>div>img{
+    width: 100%;
+}
+
+#fifth_pic img{
+    width: 100%;
+    
+}
+
+#sixth_pic{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    /* gap: 14px; */
+    /* border: 1px solid red; */
+}
+
+
+#sixth_pic>div>img{
+    width: 100%;
+}
+
+#seventh_pic img{
+    width: 100%;
+    
+}
+
+#eight_pics_yellow{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    /* border: 1px solid red; */
+}
+
+#eight_pics_yellow img{
+    width: 100%; 
+}
+
+#nine_pic img{
+    width: 100%;
+    
+}
+
+#tenth_pic{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    /* border: 1px solid red; */
+}
+
+#tenth_pic img{
+    width: 100%; 
+}
