@@ -4,7 +4,7 @@ Project code: can-water-5067
 
 Project Clone: https://www.myntra.com
 
-Skills: HTML, CSS, Advanced JS, LocalStorage, ES6
+Skills: HTML, CSS, Advanced JS, Local Storage, ES6
 
 Team Members:
 
