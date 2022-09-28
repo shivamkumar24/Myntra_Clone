@@ -8,7 +8,7 @@ Skills: HTML, CSS, Advanced JS, LocalStorage, ES6
 
 Team Members:
 
-Teamm Lead: Shivam Kumar(fw19_0161)
+Team Lead: Shivam Kumar(fw19_0161)
 
 Member-1: Prateek Agrawal(fw20_0114)
 
