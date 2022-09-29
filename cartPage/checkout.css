@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container1{
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#container1>h2{
+    margin-left: 15%;
+}
+#container1>input{
+    margin: 8px;
+    padding: 8px;
+}
+#container1>div>input{
+    margin: 8px;
+    padding: 8px;
+}
+#pay{
+    cursor: pointer;
+}
+
+
