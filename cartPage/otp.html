@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #container {
+        width: 30%;
+        margin: auto;
+        padding: 25px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+      #container > p{
+        font-size: 18px;
+        margin: 15px 5px;
+        text-align: center;
+      }
+      #container > input {
+        margin: 8px;
+        padding: 8px;
+      }
+      #container > div > input {
+        margin: 8px;
+        padding: 8px;
+      }
+      #otpConfirm{
+        color: aliceblue;
+        padding: 8px;
+        margin-left: -13px;
+        background-color: black;
+        cursor: pointer;
+      }
+      span{
+        cursor: pointer;
+        font-weight: bold;
+        color: rgb(15, 0, 128);
+      }
+      
+    </style>
+    <title>OTP Page</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>OTP Verification</h1>
+      <p>Please enter 4 digit OTP send to your registered mobile number</p>
+      <div>
+        <input type="number" name="" id="otp" />
+        <button id="otpConfirm">CONFIRM</button>
+      </div>
+      <p>OTP not received?<span>RESEND</span></p>
+    </div>
+  </body>
+</html>
+
+<script>
+
+  let otpNumber=document.getElementById("otp");
+
+    document.getElementById("otpConfirm").addEventListener("click",()=>{
+      if(otpNumber.value==""){
+        alert("Please Confirm OTP first");
+      }else{
+        alert("Your Order is placed now.......");
+        window.location.href="success.html";
+      }
+    });
+
+</script>
