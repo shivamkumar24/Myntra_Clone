@@ -389,7 +389,7 @@ let women = [
 
 
 
-let orderDataArr = JSON.parse(localStorage.getItem("selectWomenProduct")) || [];
+let orderDataArr = JSON.parse(localStorage.getItem("selectProduct")) || [];
 let container = document.getElementById("container");
 
 let appendData = (data) => {
@@ -437,7 +437,7 @@ function addDetails(elem) {
     
     orderDataArr.push(data1);
     // console.log(data1);
-    localStorage.setItem("selectWomenProduct", JSON.stringify(orderDataArr));
+    localStorage.setItem("selectProduct", JSON.stringify(orderDataArr));
     alert("Item added to the Cart....");
 }
 
