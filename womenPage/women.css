@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Invite Section */
+#invite {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30%;
+  background-color: rgb(195, 204, 221);
+}
+#inviteFirst > img {
+  height: 50px;
+  margin: 10px;
+}
+#inviteThird > button {
+  width: 120px;
+  margin: 10px;
+  padding: 5px 8px;
+  color: red;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(195, 204, 221);
+}
+
+
+/* Banner Section */
+#banner{
+    cursor: pointer;
+}
+#bannerFirst,#bannerSecond,#bannerThird{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+#bannerFirst>img{
+    width: 100%;
+}
+#bannerSecond>img{
+    width: 100%;
+}
+#bannerThird>img{
+    width: 100%;
+}
+
+
+/* OMG Section */
+#omg{
+    cursor: pointer;
+}
+#omgFirst>img{
+    width: 100%;
+}
+#omgSecond{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+}
+#omgSecond>img{
+    width: 100%;
+}
+
+
+/* Budget Section */
+#badget{
+    cursor: pointer;
+}
+#badgetFirst>img{
+    width: 100%;
+}
+#badgetSecond{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+}
+#badgetSecond>img{
+    width: 100%;
+}
+
+
+/* Top Categories */
+#top_categories{
+    cursor: pointer;
+}
+#top_categoriesFirst>img{
+    width: 100%;
+}
+#top_categoriesSecond>div{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+}
+#top_categoriesSecond>div>img{
+    width: 100%;
+}
+
+
+/* Top-Brand */
+#top_brand{
+    cursor: pointer;
+}
+#top_brandFirst>img{
+    width: 100%;
+}
+#top_brandSecond{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+}
+#top_brandSecond>img{
+    width: 100%;
+}
+
+
+/* Shop Categories */
+#shop_categories{
+    cursor: pointer;
+}
+#shop_categoriesFirst>img{
+    width: 100%;
+}
+#shop_categoriesSecond{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: auto;
+}
+#shop_categoriesSecond>img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
