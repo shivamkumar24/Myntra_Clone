@@ -1,5 +1,4 @@
 function append(data) {
-  //appending
   let appe = document.getElementById("appe");
   div = document.createElement("div");
 
