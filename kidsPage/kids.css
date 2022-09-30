@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Invite Section */
+#invite {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30%;
+  background-color: rgb(195, 204, 221);
+}
+#inviteFirst > img {
+  height: 50px;
+  margin: 10px;
+}
+#inviteThird > button {
+  width: 120px;
+  margin: 10px;
+  padding: 5px 8px;
+  color: red;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(195, 204, 221);
+}
+
+
+/* slider */
+#slider {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0px 50px 0px;
+}
+#slider > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+
+/* FAVOURITE BRANDS */
+#favorite {
+  cursor: pointer;
+}
+#favorite_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#favorite_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+}
+#favorite_images > img {
+  width: 100%;
+}
+
+
+/* TOP PICKS */
+#picks {
+  cursor: pointer;
+}
+#picks_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#picks_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(11, auto);
+}
+#picks_images > img {
+  width: 100%;
+}
+
+
+/* ICONIC BRANDS */
+#iconic {
+  cursor: pointer;
+}
+#iconic_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#iconic_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+#iconic_images > img {
+  width: 100%;
+}
+
+
+/* FASHION & ESSENTIALS */
+#fashion {
+  cursor: pointer;
+}
+#fashion_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#fashion_images > div {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+#fashion_images > div > img {
+  width: 100%;
+}
+
+
+/* EXPLORE MORE */
+#explore {
+  cursor: pointer;
+}
+#explore_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#explore_images > div {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+#explore_images > div > img {
+  width: 100%;
+}
+
+
+/* THE KIDS SPACE */
+#space {
+  cursor: pointer;
+}
+#space_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#space_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+#space_images > img {
+  width: 100%;
+}
+
+
+/* BUDGET BUY */
+#budget {
+  cursor: pointer;
+}
+#budget_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#budget_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+#budget_images > img {
+  width: 100%;
+}
+
+
+/* SHOP MORE BRANDS */
+#shop_more {
+  cursor: pointer;
+}
+#shop_more_header > h1 {
+  margin-left: 100px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#shop_more_images {
+  margin: 40px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+#shop_more_images > img {
+  width: 100%;
+}
+
+
+
+
