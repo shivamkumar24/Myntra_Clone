@@ -112,3 +112,8 @@
 #fourth_container_h-l_bottom img {
   width: 18%;
 }
+
+img:hover {
+  transform: scale(0.95);
+  transition: all 1s linear;
+}
