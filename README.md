@@ -4,6 +4,8 @@ Project code: can-water-5067
 
 Project Clone: https://www.myntra.com
 
+Netlify link: https://guileless-torte-9f4b6e.netlify.app
+
 Skills: HTML, CSS, Advanced JS, Local Storage, ES6
 
 Team Members:
