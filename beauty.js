@@ -168,7 +168,6 @@ let men = [
   
 let appendData = (data) => {
   let appe=document.getElementById('appe')
-  // appe.innerHTML = null;
   data.forEach((el) => {
     div=document.createElement('div')
    brand=document.createElement('h2')
@@ -182,9 +181,7 @@ let appendData = (data) => {
    wish=document.createElement('button')
    wish.innerHTML="Add To Wishlist";
    wish.id='op'
-    // wish.addEventListener("click",()=>{
       
-    // })   
     category=document.createElement('h3')
  category.innerHTML=el.category
    div.append(brand,img,price,dis,wish)
