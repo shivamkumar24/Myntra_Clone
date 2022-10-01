@@ -171,18 +171,25 @@ let appendData = (data) => {
   // appe.innerHTML = null;
   data.forEach((el) => {
     div=document.createElement('div')
-   brand=document.createElement('h3')
+   brand=document.createElement('h2')
    brand.innerHTML=el.title
-    dis=document.createElement('h2')
-    dis.innerHTML=el.discounted_price
+    dis=document.createElement('h3')
+    dis.innerHTML="Dis_Price = "+el.discounted_price
     img=document.createElement('img')
     img.src=el.image
-    price=document.createElement('h4')
-   price.innerHTML=el.price
-  //  category=document.createElement('h4')
-  //  category.innerHTML=el.category
-   div.append(brand,img,price,dis)
+    price=document.createElement('h2')
+   price.innerHTML="Price = "+el.price
+   wish=document.createElement('button')
+   wish.innerHTML="Add To Wishlist";
+   wish.id='op'
+    // wish.addEventListener("click",()=>{
+      
+    // })   
+    category=document.createElement('h3')
+ category.innerHTML=el.category
+   div.append(brand,img,price,dis,wish)
    appe.append(div)
   });
 };
 appendData(men)
+

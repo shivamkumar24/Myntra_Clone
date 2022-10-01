@@ -6,13 +6,18 @@ gap: 15px;
 }
 #appe > div > img {
     cursor: pointer;
+    width: 70%;
   }
   #appe div{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     background-color: aliceblue;
   }
   #appe>div:hover{
-background-color: rgb(243, 226, 227);
+background-color: rgb(252, 252, 252);
 box-shadow: rgba(4, 4, 112, 0.2) 0px 7px 29px 0px;
+
+  }
+  #op{
+border: 1px dashed green;    
   }
   
