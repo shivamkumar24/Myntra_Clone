@@ -28,7 +28,6 @@
   background-color: rgb(195, 204, 221);
 }
 
-
 /* slider */
 #slider {
   width: 100%;
@@ -40,7 +39,6 @@
   height: 100%;
   cursor: pointer;
 }
-
 
 /* FAVOURITE BRANDS */
 #favorite {
@@ -62,7 +60,6 @@
   width: 100%;
 }
 
-
 /* TOP PICKS */
 #picks {
   cursor: pointer;
@@ -82,7 +79,6 @@
 #picks_images > img {
   width: 100%;
 }
-
 
 /* ICONIC BRANDS */
 #iconic {
@@ -104,7 +100,6 @@
   width: 100%;
 }
 
-
 /* FASHION & ESSENTIALS */
 #fashion {
   cursor: pointer;
@@ -124,7 +119,6 @@
 #fashion_images > div > img {
   width: 100%;
 }
-
 
 /* EXPLORE MORE */
 #explore {
@@ -146,7 +140,6 @@
   width: 100%;
 }
 
-
 /* THE KIDS SPACE */
 #space {
   cursor: pointer;
@@ -166,7 +159,6 @@
 #space_images > img {
   width: 100%;
 }
-
 
 /* BUDGET BUY */
 #budget {
@@ -188,7 +180,6 @@
   width: 100%;
 }
 
-
 /* SHOP MORE BRANDS */
 #shop_more {
   cursor: pointer;
@@ -208,7 +199,3 @@
 #shop_more_images > img {
   width: 100%;
 }
-
-
-
-

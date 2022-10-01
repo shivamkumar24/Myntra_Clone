@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="checkout.css" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="signin.css" />
     <link rel="stylesheet" href="../navbar.css" />
-    <title>Checkout Page</title>
   </head>
   <body>
     <!-- Navbar Section-->
@@ -27,24 +27,30 @@
           type="text"
           placeholder="Search for products, brands and more"
         />
-        <a href="../Register/signin.html">Profile</a>
+        <a href="">Profile</a>
         <a href="">Wishlist</a>
-        <a href="./cart.html">Bag</a>
+        <a href="../cartPage/cart.html">Bag</a>
       </div>
     </div>
 
-    <!-- Main-Content -->
-    <div id="container1">
-      <h2>Payment From Card Only</h2>
-      <input type="number" name="" id="cardNumber" placeholder="Card Number" />
-      <input type="text" name="" id="holderName" placeholder="Name on Card" />
-      <div>
-        <input type="text" name="" id="monthYear" placeholder="Valid (MM/YY)" />
-        <input type="password" id="cardCvv" placeholder="CVV" />
-      </div>
-      <input type="submit" id="pay" value="Pay Now" />
+    <!-- Main-content -->
+    <div class="container" id="container">
+      <form>
+        <h1>SignIn</h1>
+        <label for="">Email</label>
+        <input type="text" id="email" placeholder="Enter email" />
+        <div>
+          <label for="">Password</label>
+          <a href="">Forget Password ?</a>
+        </div>
+        <input type="password" id="password" placeholder="Enter password" />
+        <input type="submit" value="SIGN IN" />
+        <label for="" id="label"
+          >Don't have an account? <a href="signup.html">Sign Up</a></label
+        >
+      </form>
     </div>
   </body>
 </html>
 
-<script src="checkout.js"></script>
+<script src="signin.js"></script>

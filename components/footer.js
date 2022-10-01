@@ -1,63 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beauty</title>
-    <link rel="stylesheet" href="beauty.css" />
-    <link rel="stylesheet" href="./navbar.css" />
-    <link rel="stylesheet" href="./footer.css" />
-  </head>
-  <body>
-    <!-- Navbar Section -->
-    <div id="navbar">
-      <div id="left">
-        <img
-          id="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiCh64tUdnBqWk8mc8nexBD4q9pYenhMfDcw&usqp=CAU"
-          alt="myntra logo"
-        />
-        <a href="./menPage/men.html">MEN</a>
-        <a href="./womenPage/women.html">WOMEN</a>
-        <a href="./kidsPage/kids.html">KIDS</a>
-        <a href="home-living.html">HOME & LIVING</a>
-        <a href="beauty.html">BEAUTY</a>
-        <input
-          id="search_bar"
-          type="text"
-          placeholder="Search for products, brands and more"
-        />
-        <a href="./Register/signin.html">Profile</a>
-        <a href="">Wishlist</a>
-        <a href="./cartPage/cart.html">Bag</a>
-      </div>
-    </div>
 
-    <!-- Main Section -->
-    <div id="main">
-      <div id="big_container">
-        <div id="categories_container">
-          <h3 class="cat">CATEGORIES</h3>
-          <p>BRUNELLO CUCINELLI</p>
-          <p>BIKKEMBERGS</p>
-          <p>VERSACE COLLECTION</p>
-          <p>OBEY</p>
-          <p>AMI ALEXANDRE</p>
-          <p>VERSACE COLLECTION</p>
-          <p>AMI MATTIUSSI</p>
-          <p>BRUNELLO CUCINELLI</p>
-          <p>BIKKEMBERGS</p>
-          <p>VERSACE COLLECTION</p>
-          <p>OBEY</p>
-        </div>
-      </div>
-      <div id="appe"></div>
-    </div>
 
-    <!-- Footer Section -->
-    <div id="big_footer">
-      <div id="footer">
+function footer() {
+
+    return `
+    
+    <div id="footer">
         <div id="ONLINE_SHOPPING">
           <h4>ONLINE SHOPPING</h4>
           <p>Men</p>
@@ -413,7 +360,15 @@
           loved-ones and avail our gift services for special occasions.
         </p>
       </div>
-    </div>
-  </body>
-</html>
-<script src="beauty.js"></script>
+    
+    `;
+
+}
+
+export { footer };
+
+
+
+
+
+

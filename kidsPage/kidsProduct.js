@@ -1,4 +1,5 @@
 
+
 let kids = [
     {
         image: "https://www.yoox.com/images/items/15/15217067sm_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
@@ -461,7 +462,6 @@ let kids = [
 
 
 
-
 let orderDataArr = JSON.parse(localStorage.getItem("selectProduct")) || [];
 let container = document.getElementById("container");
 
@@ -489,7 +489,7 @@ let appendData = (data) => {
         });
         // console.log(typeof(+elem.discounted_price));
 
-        div.append(img, title, categories, price, save, discount,btn);
+        div.append(img, title, categories, price, save, discount, btn);
         // console.log(div);
 
         container.append(div);
@@ -510,14 +510,12 @@ function addDetails(elem) {
         save: elem.save,
         discount: elem.discounted_price,
     };
-    
+
     orderDataArr.push(data1);
     // console.log(data1);
     localStorage.setItem("selectProduct", JSON.stringify(orderDataArr));
     alert("Item added to the Cart....");
 }
-
-
 
 //price select options
 
@@ -536,7 +534,7 @@ let sortLH = () => {
     kids = kids.sort(function (a, b) {
         return a.discounted_price - b.discounted_price;
     });
-    // console.log(men)
+    // console.log(kids)
     // men.discounted_price="$"+" "+men.discounted_price;
     // console.log(men.discounted_price);
     appendData(kids);
@@ -547,12 +545,14 @@ let sortHL = () => {
     kids = kids.sort(function (a, b) {
         return b.discounted_price - a.discounted_price;
     });
-    // console.log(men)
+    // console.log(kids)
     appendData(kids);
 }
 
 
-
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "../index.html";
+})
 
 
 

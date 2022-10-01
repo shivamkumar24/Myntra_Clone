@@ -1,246 +1,141 @@
-#navbar>#left{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-#left>div:hover{
+
+/* invite Section */
+#invite {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30%;
+  background-color: #e3ebff;
+  /* text-decoration-color: grey; */
+  margin-bottom: 30px;
+}
+#inviteImg > img {
+  height: 50px;
+  margin: 10px;
+}
+#inviteBtn > button {
+  width: 120px;
+  margin: 10px;
+  padding: 5px 8px;
   color: red;
   cursor: pointer;
-}
-#logo{
-    width: 70px;
-}
-#search_bar{
-    width: 300px;
-    height: 40px;
-}
-#navbar{
-    /* display: flex; */
-    width: 100%;
-    background-color: white;
-    height: 60px;
-    text-decoration: none;
-    /* align-items: center; */
-    position:sticky;
-    top: 0;
-    box-shadow: rgba(158, 158, 176, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #e3ebff;
 }
 
-#invite {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    padding: 0px 30%;
-    background-color: #e3ebff;
-    /* text-decoration-color: grey; */
-    margin-bottom: 30px;
-  }
-  #inviteImg > img {
-    height: 50px;
-    margin: 10px;
-  }
-  #inviteBtn > button {
-    width: 120px;
-    margin: 10px;
-    padding: 5px 8px;
-    color: red;
-    cursor: pointer;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: #e3ebff;
-  }
-
-#ranbir_kiara{
-    cursor: pointer;
+/* Home Page Section */
+#ranbir_kiara {
+  cursor: pointer;
 }
-#ranbir_kiara_First,#ranbir_kiara_Second,#ranbir_kiara_Third{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
+#ranbir_kiara_First,
+#ranbir_kiara_Second,
+#ranbir_kiara_Third {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
 }
 
-#ranbir_kiara_Second{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
+#ranbir_kiara_Second {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
 }
 
-#ranbir_kiara_Third{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
+#ranbir_kiara_Third {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
 }
-#ranbir_kiara_First>img{
-    width: 100%;
+#ranbir_kiara_First > img {
+  width: 100%;
 }
-#ranbir_kiara_Second>img{
-    width: 100%;
+#ranbir_kiara_Second > img {
+  width: 100%;
 }
-#ranbir_kiara_Third>img{
-    width: 100%;
-}
-
-#second_pic{
-    margin-top: 30px;
+#ranbir_kiara_Third > img {
+  width: 100%;
 }
 
-#second_pic img{
-    width: 100%;
-    height: 300px;
-   
-}
-#third_pic img{
-    width: 100%;
-    
+#second_pic {
+  margin-top: 30px;
 }
 
-#fourth_pic{
-    display: grid;
-    grid-template-columns: repeat(10,9%);
-    gap: 14px;
-    /* border: 1px solid red; */
+#second_pic img {
+  width: 100%;
+  height: 300px;
+}
+#third_pic img {
+  width: 100%;
 }
 
-
-#fourth_pic>div>img{
-    width: 100%;
+#fourth_pic {
+  display: grid;
+  grid-template-columns: repeat(10, 9%);
+  gap: 14px;
+  /* border: 1px solid red; */
 }
 
-#fifth_pic img{
-    width: 100%;
-    
+#fourth_pic > div > img {
+  width: 100%;
 }
 
-#sixth_pic{
-    display: grid;
-    grid-template-columns: repeat(10,10%);
-    /* gap: 14px; */
-    /* border: 1px solid red; */
+#fifth_pic img {
+  width: 100%;
 }
 
-
-#sixth_pic>div>img{
-    width: 100%;
+#sixth_pic {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  /* gap: 14px; */
+  /* border: 1px solid red; */
 }
 
-#seventh_pic img{
-    width: 100%;
-    
+#sixth_pic > div > img {
+  width: 100%;
 }
 
-#eight_pics_yellow{
-    display: grid;
-    grid-template-columns: repeat(10,10%);
-    
+#seventh_pic img {
+  width: 100%;
 }
 
-#eight_pics_yellow img{
-    width: 100%; 
+#eight_pics_yellow {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
 }
 
-#nine_pic img{
-    width: 100%;
-    
+#eight_pics_yellow img {
+  width: 100%;
 }
 
-#tenth_pic{
-    display: grid;
-    grid-template-columns: repeat(10,10%);
-    
+#nine_pic img {
+  width: 100%;
 }
 
-#tenth_pic img{
-    width: 100%; 
+#tenth_pic {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
 }
 
-#eleventh_pic img{
-    width: 100%;
+#tenth_pic img {
+  width: 100%;
 }
 
-#twelth_pics{
-    display: grid;
-    grid-template-columns: repeat(6,auto);
-    
+#eleventh_pic img {
+  width: 100%;
 }
 
-#twelth_pics img{
-    width: 100%; 
+#twelth_pics {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
 }
 
-#footer{
-    display: flex;
-    gap: 30px;
-
+#twelth_pics img {
+  width: 100%;
 }
-#footer p{
-    color: grey;
-}
-
-
-
-#footer img{
-    width: 90px;
-}
-#EXPERIENCE_MYNTRA_APP_ON_MOBILE img{
-    width: 60px;
-}
-
-
-#USEFUL_LINKS p{
-    color: grey;
-}
-
-h3~p{
-    color: grey;
-}
-
-#contact{
-    display: grid;
-    grid-template-columns: repeat(2,30%);
-    justify-content: space-between;
-    color: grey;
-    
-}
-
-#address{
-    display: flex;
-    justify-content: space-around;
-    color: grey;
-}
-
-#online_shopping p{
-    color: grey;
-}
-
-#affordable{
-    margin-top: 40px;
-}
-#affordable p{
-    color: grey;
-}
-#MYNTRA_INSIDER p{
-    color: grey;
-}
-#points p{
-color: grey;
-}
-#myntr p{
-color: grey;
-}
-
-#dia p{
-    color: grey;
-}
- #muntra_app p{
-     color: grey;
- }
-
- #history_of_myntra p{
-     color: grey;
- }
-
- #very_last p{
-    color: grey;
- }

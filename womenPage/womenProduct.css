@@ -1,82 +1,84 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-  #main_container {
-    width: 70%;
-    padding-top: 30px;
-    margin: auto;
-  }
-  
-  select {
-    color: aliceblue;
-    padding: 5px;
-    font-weight: bold;
-    margin-left: 40px;
-    margin-bottom: 15px;
-    background-color: black;
-    cursor: pointer;
-  }
-  option {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #big_container {
-    display: flex;
-  }
-  
-  #categories_container {
-    width: 17%;
-    height: 500px;
-    display: flex;
-    padding: 45px 20px;
-    flex-direction: column;
-    background-color: rgb(197, 208, 218);
-    /* border: 1px solid black; */
-  }
-  
-  #categories_container > p {
-    margin: 5px;
-    cursor: pointer;
-  }
-  #categories_container > p:hover {
-    font-weight: bold;
-  }
-  
-  #container {
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: auto;
-    gap: auto;
-  }
-  #container > div {
-    display: flex;
-    margin: 10px;
-    margin-bottom: 35px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  }
-  #container > div > img {
-    height: 200px;
-    cursor: pointer;
-  }
-  #container > div > h4 {
-    margin: 10px;
-  }
-  #container > div > p {
-    margin: 3px;
-  }
-  #container > div > button{
-    width: 100%;
-    height: 25px;
-    color: aliceblue;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: black;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Women-Product Page Section */
+#main_container {
+  width: 70%;
+  padding-top: 30px;
+  margin: auto;
+}
+
+select {
+  color: aliceblue;
+  padding: 5px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  background-color: black;
+  cursor: pointer;
+}
+option {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#big_container {
+  display: flex;
+}
+
+#categories_container {
+  width: 17%;
+  height: 500px;
+  display: flex;
+  padding: 45px 20px;
+  flex-direction: column;
+  background-color: rgb(197, 208, 218);
+  /* border: 1px solid black; */
+}
+
+#categories_container > p {
+  margin: 5px;
+  cursor: pointer;
+}
+#categories_container > p:hover {
+  font-weight: bold;
+}
+
+#container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto;
+  gap: auto;
+}
+#container > div {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#container > div > img {
+  height: 200px;
+  cursor: pointer;
+}
+#container > div > h4 {
+  margin: 10px;
+}
+#container > div > p {
+  margin: 3px;
+}
+#container > div > button {
+  width: 100%;
+  height: 25px;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+}

@@ -1,18 +1,81 @@
-#appe{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-text-align: center;
-gap: 15px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#left {
+  margin-top: 8px;
+}
+
+#appe {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 15px;
 }
 #appe > div > img {
-    cursor: pointer;
-  }
-  #appe div{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: aliceblue;
-  }
-  #appe>div:hover{
-background-color: rgb(243, 226, 227);
-box-shadow: rgba(4, 4, 112, 0.2) 0px 7px 29px 0px;
-  }
-  
+  cursor: pointer;
+  width: 90%;
+}
+
+#appe div {
+  height: auto;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+#appe > div:hover {
+  background-color: rgb(252, 252, 252);
+  box-shadow: rgba(4, 4, 112, 0.2) 0px 7px 29px 0px;
+}
+#appe > div > h2,
+h3 {
+  margin: 10px;
+}
+
+#op {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+#op:hover {
+  border: 3px solid rgb(31, 41, 16);
+}
+
+#main {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: space-around;
+}
+#big_container {
+  text-align: center;
+}
+#categories_container {
+  width: 85%;
+  height: 500px;
+  display: flex;
+  padding: 45px 10px;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(170, 241, 214);
+}
+
+#categories_container > p {
+  margin: 5px;
+  cursor: pointer;
+}
+#categories_container > p:hover {
+  background-color: azure;
+}
+/* #div1:hover {
+  color: rgb(7, 104, 31);
+  background-color: aqua;
+} */
+.cat {
+  padding: 3px;
+  font-size: 18px;
+  background-color: aliceblue;
+}

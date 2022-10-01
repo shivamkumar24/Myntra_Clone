@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="address.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="address.css" />
+    <link rel="stylesheet" href="../navbar.css" />
     <title>Address Page</title>
-</head>
-<body>
-
-
-    <div id="container">
-        <h1 id="Reg_email"></h1>
-        <form action="" id="user_datails" onsubmit="orderData(event)">
-            <label for="" id="heading">Please fill the necessary details.....</label>
-            <input type="text" name="" id="name" placeholder="Enter Your Name:">
-            <input type="text" name="" id="phone" placeholder="Enter Your Phone:">
-            <input type="email" name="" id="email" placeholder="Enter Your Email:">
-            <input type="text" name="" id="address" placeholder="Enter Your Address:">
-            <input type="text" name="" id="pincode" placeholder="Enter Your Pincode:">
-            <input type="text" name="" id="city" placeholder="Enter Your City:">
-            <input type="text" name="" id="state" placeholder="Enter Your State:">
-            <input type="text" name="" id="country" placeholder="Enter Your Country:">
-            <input type="submit" value="Address Placed" id="order">
-        </form>
+  </head>
+  <body>
+    <!-- Navbar Section-->
+    <div id="navbar">
+      <div id="left">
+        <img
+          id="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiCh64tUdnBqWk8mc8nexBD4q9pYenhMfDcw&usqp=CAU"
+          alt="myntra logo"
+        />
+        <a href="../menPage/men.html">MEN</a>
+        <a href="../womenPage/women.html">WOMEN</a>
+        <a href="../kidsPage/kids.html">KIDS</a>
+        <a href="../home-living.html">HOME & LIVING</a>
+        <a href="../beauty.html">BEAUTY</a>
+        <input
+          id="search_bar"
+          type="text"
+          placeholder="Search for products, brands and more"
+        />
+        <a href="../Register/signin.html">Profile</a>
+        <a href="">Wishlist</a>
+        <a href="./cart.html">Bag</a>
+      </div>
     </div>
 
-    
-</body>
+    <!-- Main-content -->
+    <div id="container">
+      <h1 id="Reg_email"></h1>
+      <form action="" id="user_datails" onsubmit="orderData(event)">
+        <label for="" id="heading"
+          >Please fill the necessary details.....</label
+        >
+        <input type="text" name="" id="name" placeholder="Enter Your Name:" />
+        <input type="text" name="" id="phone" placeholder="Enter Your Phone:" />
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Enter Your Email:"
+        />
+        <input
+          type="text"
+          name=""
+          id="address"
+          placeholder="Enter Your Address:"
+        />
+        <input
+          type="text"
+          name=""
+          id="pincode"
+          placeholder="Enter Your Pincode:"
+        />
+        <input type="text" name="" id="city" placeholder="Enter Your City:" />
+        <input type="text" name="" id="state" placeholder="Enter Your State:" />
+        <input
+          type="text"
+          name=""
+          id="country"
+          placeholder="Enter Your Country:"
+        />
+        <input type="submit" value="Address Placed" id="order" />
+      </form>
+    </div>
+  </body>
 </html>
 
 <script src="address.js"></script>
-
-

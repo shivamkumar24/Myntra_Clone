@@ -1,0 +1,36 @@
+/* Navbar Section CSS */
+#navbar {
+  /* display: flex; */
+  width: 100%;
+  background-color: white;
+  height: 60px;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(158, 158, 176, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#navbar > #left {
+  display: flex;
+  padding-top: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+#logo {
+  width: 70px;
+  cursor: pointer;
+}
+#left > a {
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#left > a:hover {
+  color: red;
+  cursor: pointer;
+}
+#search_bar {
+  width: 300px;
+  padding: 10px;
+  height: 40px;
+}

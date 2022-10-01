@@ -31,17 +31,19 @@ function deleteContent(elem, index) {
     Qty--;
     cartArr.splice(index, 1);
     localStorage.setItem("selectProduct", JSON.stringify(cartArr));
-    
+
 }
 
 document.querySelector("#totalAmount").innerText = total;
 document.querySelector("#totalQuantity").innerText = Qty;
 
 
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "../index.html";
+})
 
-
-document.getElementById("shopping_continue").addEventListener("click",function(){
-    window.location.href="address.html";
+document.getElementById("shopping_continue").addEventListener("click", function () {
+    window.location.href = "address.html";
 });
 
 

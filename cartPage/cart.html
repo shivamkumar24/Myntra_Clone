@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cart.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="../navbar.css" />
     <title>Cart Page</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- Navbar Section-->
+    <div id="navbar">
+      <div id="left">
+        <img
+          id="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiCh64tUdnBqWk8mc8nexBD4q9pYenhMfDcw&usqp=CAU"
+          alt="myntra logo"
+        />
+        <a href="../menPage/men.html">MEN</a>
+        <a href="../womenPage/women.html">WOMEN</a>
+        <a href="../kidsPage/kids.html">KIDS</a>
+        <a href="../home-living.html">HOME & LIVING</a>
+        <a href="../beauty.html">BEAUTY</a>
+        <input
+          id="search_bar"
+          type="text"
+          placeholder="Search for products, brands and more"
+        />
+        <a href="../Register/signin.html">Profile</a>
+        <a href="">Wishlist</a>
+        <a href="">Bag</a>
+      </div>
+    </div>
+
+    <!-- Main-Content -->
     <h1>Myntra Shopping Bag</h1>
     <div class="details">
       <h2>Total Quantity: <span id="totalQuantity">0</span></h2>
@@ -16,11 +41,7 @@
       <button id="shopping_continue">Shopping Continue</button>
     </div>
     <div id="container"></div>
-
-
-</body>
+  </body>
 </html>
 
 <script src="cart.js"></script>
-
-

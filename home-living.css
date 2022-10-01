@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#invite {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30%;
+  background-color: rgb(195, 204, 221);
+}
+#inviteFirst > img {
+  height: 50px;
+  margin: 10px;
+}
+#inviteThird > button {
+  width: 120px;
+  margin: 10px;
+  padding: 5px 8px;
+  color: red;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(195, 204, 221);
+}
+
+#top_container_h-l {
+  width: 95%;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#top_container_h-l img {
+  width: 100%;
+  cursor: pointer;
+}
+
+#second_container_h-l {
+  display: flex;
+  margin-bottom: 1%;
+  width: 95%;
+  cursor: pointer;
+}
+
+#second_container_h-l_top {
+  width: 85%;
+  margin: auto;
+}
+
+#second_container_h-l_top p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(59, 59, 59);
+  font-size: xx-large;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+#second_container_h-l_top > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#second_container_h-l_left img {
+  margin: auto;
+  width: 90%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+#second_container_h-l_right b {
+  font-size: 18px;
+  color: rgb(23, 23, 23);
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#second_container_h-l_right p {
+  font-size: 15px;
+  margin: auto;
+  color: rgb(69, 69, 69);
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#second_container_h-l_right p:hover {
+  font-weight: bold;
+}
+
+#third_container_h-l {
+  margin: auto;
+  width: 100%;
+}
+
+#third_container_h-l > img {
+  width: 100%;
+  cursor: pointer;
+}
+
+#third_container_h-l_bottomDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin: auto;
+}
+
+#third_container_h-l_bottomDiv img {
+  width: 100%;
+  cursor: pointer;
+}
+
+#fourth_container_h-l > img {
+  width: 90%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+#fourth_container_h-l_bottom {
+  display: flex;
+  margin: auto;
+  margin-left: 5%;
+  gap: 2%;
+  margin-bottom: 5%;
+}
+
+#fourth_container_h-l_bottom img {
+  width: 18%;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(0.95);
+  transition: all 1s linear;
+}

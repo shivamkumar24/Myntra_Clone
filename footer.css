@@ -1,0 +1,98 @@
+/* Footer Section CSS */
+
+#big_footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#big_footer > div {
+  margin: 15px;
+}
+
+#footer {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+}
+#footer p {
+  color: grey;
+}
+#last > div {
+  display: flex;
+  justify-content: space-around;
+}
+#last > div > img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#footer img {
+  width: 70px;
+}
+#EXPERIENCE_MYNTRA_APP_ON_MOBILE img {
+  width: 30px;
+  margin: 5px;
+}
+#first_EXPERIENCE_MYNTRA_APP_ON_MOBILE > img {
+  width: 130px;
+  height: 30px;
+  margin: 10px;
+}
+
+#USEFUL_LINKS p {
+  color: grey;
+}
+
+h3 ~ p {
+  color: grey;
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+  justify-content: space-between;
+  color: grey;
+}
+
+#address {
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+}
+
+#online_shopping p {
+  color: grey;
+}
+
+#affordable {
+  margin-top: 40px;
+}
+#affordable p {
+  color: grey;
+}
+#MYNTRA_INSIDER p {
+  color: grey;
+}
+#points p {
+  color: grey;
+}
+#myntr p {
+  color: grey;
+}
+
+#dia p {
+  color: grey;
+}
+#muntra_app p {
+  color: grey;
+}
+
+#history_of_myntra p {
+  color: grey;
+}
+
+#very_last p {
+  color: grey;
+}

@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beauty</title>
-    <link rel="stylesheet" href="beauty.css" />
+    <title>Home & Living Products</title>
+    <link rel="stylesheet" href="./home-living-product.css" />
     <link rel="stylesheet" href="./navbar.css" />
     <link rel="stylesheet" href="./footer.css" />
   </head>
   <body>
-    <!-- Navbar Section -->
+    <!-- Navbar -->
     <div id="navbar">
       <div id="left">
         <img
@@ -21,8 +21,8 @@
         <a href="./menPage/men.html">MEN</a>
         <a href="./womenPage/women.html">WOMEN</a>
         <a href="./kidsPage/kids.html">KIDS</a>
-        <a href="home-living.html">HOME & LIVING</a>
-        <a href="beauty.html">BEAUTY</a>
+        <a href="./home-living.html">HOME & LIVING</a>
+        <a href="./beauty.html">BEAUTY</a>
         <input
           id="search_bar"
           type="text"
@@ -34,28 +34,36 @@
       </div>
     </div>
 
-    <!-- Main Section -->
-    <div id="main">
+    <!-- home-lining data -->
+    <div id="main_container">
+      <select name="" id="sortBy" onchange="change()">
+        <option value="sortby">Sort by Price</option>
+        <option value="Lowest_Price" id="lowestPrice">Lowest Price</option>
+        <option value="Highest_Price" id="highestPrice">Highest Price</option>
+      </select>
+
       <div id="big_container">
         <div id="categories_container">
-          <h3 class="cat">CATEGORIES</h3>
-          <p>BRUNELLO CUCINELLI</p>
-          <p>BIKKEMBERGS</p>
-          <p>VERSACE COLLECTION</p>
-          <p>OBEY</p>
-          <p>AMI ALEXANDRE</p>
-          <p>VERSACE COLLECTION</p>
-          <p>AMI MATTIUSSI</p>
-          <p>BRUNELLO CUCINELLI</p>
-          <p>BIKKEMBERGS</p>
-          <p>VERSACE COLLECTION</p>
-          <p>OBEY</p>
+          <h3>Categories</h3>
+          <p>T-Shirts</p>
+          <p>Shirts</p>
+          <p>Kurta Sets</p>
+          <p>Bed-Sheets</p>
+          <p>Jeans</p>
+          <p>Trousers</p>
+          <p>Braclets</p>
+          <p>Watch</p>
+          <p>Belts</p>
+          <p>Shoes</p>
+          <p>brief case</p>
+        </div>
+        <div id="container">
+          <!-- hover effect -->
         </div>
       </div>
-      <div id="appe"></div>
     </div>
 
-    <!-- Footer Section -->
+    <!-- Footer -->
     <div id="big_footer">
       <div id="footer">
         <div id="ONLINE_SHOPPING">
@@ -416,4 +424,5 @@
     </div>
   </body>
 </html>
-<script src="beauty.js"></script>
+
+<script src="./home-living-product.js"></script>

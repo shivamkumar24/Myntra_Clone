@@ -47,7 +47,7 @@ let women = [
         price: "528.00",
         save: "33% OFF",
         discounted_price: "349.00",
-      
+
     },
     {
         image: "https://www.yoox.com/images/items/17/17023749kk_14_e.jpg?width=210&height=272&impolicy=crop&gravity=Center",
@@ -434,7 +434,7 @@ function addDetails(elem) {
         save: elem.save,
         discount: elem.discounted_price,
     };
-    
+
     orderDataArr.push(data1);
     // console.log(data1);
     localStorage.setItem("selectProduct", JSON.stringify(orderDataArr));
@@ -473,7 +473,9 @@ let sortHL = () => {
 }
 
 
-
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "../index.html";
+})
 
 
 

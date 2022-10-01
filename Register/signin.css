@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1 {
+  margin: 20px auto;
+  color: blue;
+}
+input {
+  padding: 10px;
+  margin-top: 8px;
+}
+label {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#label {
+  text-align: center;
+}
+input[value] {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+input[type="submit"] {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+input[type="submit"]:hover {
+  background-color: rgb(91, 89, 89);
+  color: aliceblue;
+}
+form > div {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  padding-top: 18px;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#logo:hover {
+  cursor: pointer;
+}

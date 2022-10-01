@@ -426,7 +426,7 @@ function addDetails(elem) {
         save: elem.save,
         discount: elem.discounted_price,
     };
-    
+
     orderDataArr.push(data1);
     // console.log(data1);
     localStorage.setItem("selectProduct", JSON.stringify(orderDataArr));
@@ -465,6 +465,10 @@ let sortHL = () => {
 }
 
 
+
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "../index.html";
+})
 
 
 

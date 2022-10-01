@@ -1,4 +1,11 @@
 
+import { footer } from "../components/footer.js";
+
+let footerContainer = document.getElementById("big_footer");
+footerContainer.innerHTML = footer();
+
+
+
 let images = [
     "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/12/a606c305-a23f-4fe3-a630-343ced4a10261649782019470-Kids-Wear_Desk_Banner.jpg?v1",
     "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/12/09f0df54-6f8f-4bb0-a4b9-3b374d4538561649782019495-Top-Brands-2_Desk_Banner.jpg",
@@ -28,42 +35,44 @@ function sliderData() {
 
 sliderData();
 
-
-
-document.querySelector("#slider").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#logo").addEventListener("click", () => {
+    window.location.href = "../index.html";
 })
 
-document.querySelector("#favorite").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#slider").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#picks").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#favorite").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#iconic").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#picks").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#fashion").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#iconic").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#explore").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#fashion").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#space").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#explore").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#budget").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#space").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
-document.querySelector("#shop_more").addEventListener("click",()=>{
-    window.location.href="kidsProduct.html";
+document.querySelector("#budget").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
+})
+
+document.querySelector("#shop_more").addEventListener("click", () => {
+    window.location.href = "kidsProduct.html";
 })
 
 
