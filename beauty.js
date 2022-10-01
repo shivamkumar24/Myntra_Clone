@@ -200,9 +200,6 @@ let appendData = (data) => {
 
   let appe=document.getElementById('appe')
 
-  let appe = document.getElementById("appe");
-  // appe.innerHTML = null;
-
   data.forEach((el) => {
     div=document.createElement('div')
     div.id="div1"
@@ -228,20 +225,4 @@ let appendData = (data) => {
 };
 appendData(men)
 
-    div = document.createElement("div");
-    brand = document.createElement("h3");
-    brand.innerHTML = el.title;
-    dis = document.createElement("h2");
-    dis.innerHTML = el.discounted_price;
-    img = document.createElement("img");
-    img.src = el.image;
-    price = document.createElement("h4");
-    price.innerHTML = el.price;
-    //  category=document.createElement('h4')
-    //  category.innerHTML=el.category
-    div.append(brand, img, price, dis);
-    appe.append(div);
-  });
-};
-appendData(men);
 
