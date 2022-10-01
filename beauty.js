@@ -63,7 +63,7 @@ let men = [
   },
   {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kKpsQOrMZ3kQ2yOAj0ixXOPZipNWnqP8dg&usqp=CAU",
-      title: "AMI ALEXANDRE MATTIUSSI",
+      title: "AMI MATTIUSSI",
       category: "Shorts & Bermuda",
       price: "227.00",
       save: "34% OFF",
@@ -127,7 +127,7 @@ let men = [
 },
 {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kKpsQOrMZ3kQ2yOAj0ixXOPZipNWnqP8dg&usqp=CAU",
-    title: "AMI ALEXANDRE MATTIUSSI",
+    title: "AMI ALEXANDRE ",
     category: "Shorts & Bermuda",
     price: "227.00",
     save: "34% OFF",
@@ -170,6 +170,7 @@ let appendData = (data) => {
   let appe=document.getElementById('appe')
   data.forEach((el) => {
     div=document.createElement('div')
+    div.id="div1"
    brand=document.createElement('h2')
    brand.innerHTML=el.title
     dis=document.createElement('h3')
@@ -179,10 +180,12 @@ let appendData = (data) => {
     price=document.createElement('h2')
    price.innerHTML="Price = "+el.price
    wish=document.createElement('button')
-   wish.innerHTML="Add To Wishlist";
-   wish.id='op'
-      
-    category=document.createElement('h3')
+   wish.innerHTML="Add To Cart";
+   wish.id="op"
+   wish.addEventListener('click',function(){
+   alert('Product Is Added To Cart')
+   })
+      category=document.createElement('h3')
  category.innerHTML=el.category
    div.append(brand,img,price,dis,wish)
    appe.append(div)

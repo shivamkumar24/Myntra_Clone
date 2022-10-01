@@ -8,16 +8,53 @@ gap: 15px;
     cursor: pointer;
     width: 70%;
   }
+  
   #appe div{
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     background-color: aliceblue;
   }
   #appe>div:hover{
 background-color: rgb(252, 252, 252);
 box-shadow: rgba(4, 4, 112, 0.2) 0px 7px 29px 0px;
-
-  }
+ }
   #op{
-border: 1px dashed green;    
+border: none;    
   }
+  #op:hover{
+    border: 3px solid rgb(31, 41, 16);    
+      }
+  #main{
+    display: flex;
+  }
+  #big_container{
+    text-align: center;
+  }
+  
+#categories_container {
+  width: 17%;
+  height:500px;
+  width: 200px;
+  display: flex;
+  padding: 45px 20px;
+  flex-direction: column;
+  background-color: rgb(170, 241, 214);
+}
+
+#categories_container > p {
+  margin: 5px;
+  cursor: pointer;
+}
+#categories_container > p:hover {
+  font-weight: bold;
+  font-size: 22px;
+  background-color: azure;
+}
+#div1:hover{
+  color: rgb(7, 104, 31);
+  background-color: aqua;
+}
+.cat{
+  font-size: 25px;
+  width: 35px;
+}
+
   
