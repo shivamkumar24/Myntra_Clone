@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 
 document.getElementById("logo").addEventListener("click",()=>{
   window.location.href="./index.html";
 });
 
+=======
+>>>>>>> 33d25c41d6fb11f10097234493c442fcb2dbf480
 let men = [
   {
     image:
@@ -96,6 +99,18 @@ let men = [
   },
   {
     image:
+<<<<<<< HEAD
+=======
+      "https://www.yoox.com/images/items/13/13843431kq_14_f.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+    title: "EA7",
+    category: "Casual pants",
+    price: "204.00",
+    save: "47% OFF",
+    discounted_price: "108.00",
+  },
+  {
+    image:
+>>>>>>> 33d25c41d6fb11f10097234493c442fcb2dbf480
       "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11893070/2020/6/1/f5fa42c9-d978-4481-9581-5e3b49433f9f1590991324236999StoreSetOf2Gold-TonedGreyTreePrintedCanvasWallArt1.jpg",
     title: "Grey Tree Printed Canvas Wall Art",
     category: "Grey Tree Printed Canvas Wall Art",
@@ -114,7 +129,10 @@ let men = [
   },
 ];
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 33d25c41d6fb11f10097234493c442fcb2dbf480
 let orderDataArr = JSON.parse(localStorage.getItem("selectProduct")) || [];
 let container = document.getElementById("container");
 
@@ -195,5 +213,8 @@ let sortHL = () => {
   // console.log(men)
   appendData(men);
 };
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 33d25c41d6fb11f10097234493c442fcb2dbf480

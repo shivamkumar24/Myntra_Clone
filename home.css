@@ -139,3 +139,85 @@
 #twelth_pics img {
   width: 100%;
 }
+<<<<<<< HEAD
+=======
+
+#footer{
+    display: flex;
+    gap: 30px;
+
+}
+#footer p{
+    color: grey;
+}
+
+
+
+#footer img{
+    width: 90px;
+}
+#EXPERIENCE_MYNTRA_APP_ON_MOBILE img{
+    width: 60px;
+}
+
+
+#USEFUL_LINKS p{
+    color: grey;
+}
+
+h3~p{
+    color: grey;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    justify-content: space-between;
+    color: grey;
+    
+}
+
+#address{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+#online_shopping p{
+    color: grey;
+}
+
+#affordable{
+    margin-top: 40px;
+}
+#affordable p{
+    color: grey;
+}
+#MYNTRA_INSIDER p{
+    color: grey;
+}
+#points p{
+color: grey;
+}
+#myntr p{
+color: grey;
+}
+
+#dia p{
+    color: grey;
+}
+ #muntra_app p{
+     color: grey;
+ }
+
+ #history_of_myntra p{
+     color: grey;
+
+
+     
+ }
+
+ #very_last p{
+    color: grey;
+ }
+>>>>>>> 33d25c41d6fb11f10097234493c442fcb2dbf480
