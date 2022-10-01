@@ -18,6 +18,4 @@ Member-2: Vipin Sharma(fp04_075)
 
 Member-3: Akash Sanjay Patade(fw20_0433)
 
-Member-4: Avinash Kumar Dubey(fw18_0988)
-
 IA Manager: Aashish Kumar
