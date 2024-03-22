@@ -5,6 +5,15 @@
 
 ### Netlify link: https://idyllic-begonia-67c760.netlify.app/
 
+The project repository can be found in [GitHub link](https://github.com/shivamkumar24/Myntra_Clone) or just clone the project using this command.
+
+
+```
+Using HTTPS
+
+# git clone https://github.com/shivamkumar24/Myntra_Clone
+```
+
 ### Skills: HTML, CSS, Advanced JS, Local Storage, ES6
 
 ## Team Members:
